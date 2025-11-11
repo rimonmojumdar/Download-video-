@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download any video weabsite</title>
+    <link rel="stylesheet" href="./style.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="logo-area">
+            <img src="./image/yash.png" alt="User Logo" class="profile-logo"> 
+
+            <nav class="social-icons-inline">
+                <a href="#" class="icon-link"><i class="fab fa-facebook"></i> Facebook</a>
+                <a href="#" class="icon-link"><i class="fab fa-youtube"></i> YouTube</a>
+                <a href="#" class="icon-link"><i class="fab fa-instagram"></i> Instagram</a>
+                <a href="#" class="icon-link"><i class="fab fa-tiktok"></i> TikTok</a>
+            </nav>
+        </div>
+        
+        <div class="dropdown">
+            <button class="dropdown-toggle" onclick="toggleDropdown(event)">
+                Social menu ▼
+            </button>
+            <div id="socialDropdown" class="dropdown-menu">
+                <a href="#" data-platform="tiktok">TikTok</a>
+                <a href="#" data-platform="youtube">YouTube</a>
+                <a href="#" data-platform="facebook">Facebook</a>
+                <a href="#" data-platform="instagram">Instagram</a>
+            </div>
+        </div>
+    </header>
+
+    <main class="downloader-section">
+        <div class="main-icons">
+            <i class="fab fa-facebook-square"></i>
+            <i class="fab fa-youtube"></i>
+            <i class="fab fa-instagram-square"></i>
+            <i class="fab fa-tiktok"></i>
+        </div>
+
+        <h1 class="main-title">Enter your favorite video link here.</h1>
+        
+        <div class="input-container">
+            <input type="url" id="videoUrl" placeholder="Paste the video link..." required>
+            <button class="paste-btn" onclick="pasteLink()">Paste</button>
+        </div>
+        
+        <button id="downloadButton" class="download-btn">Download</button>
+        
+        <div id="resultArea" class="result-area">
+            </div>
+    </main>
+    
+    <section class="features-grid">
+        <div class="feature-box">
+            <h2>Unlimited</h2>
+            <p>Save videos as much as you need - without any limits.</p>
+        </div>
+        <div class="feature-box">
+            <h2>No Watermark!</h2>
+            <p>Download video in mp4 or remove logo.</p>
+        </div>
+    </section>
+
+    <section id="how-to-use" class="steps-section">
+        <h2 class="steps-heading">Here's how it's done:</h2>
+        <div class="step-card">
+            <span class="step-number">1</span>
+            <h3 class="step-title">Copy the link</h3>
+            <p>Tap the *Share* button. Select *Copy link* from the menu.</p>
+        </div>
+        <div class="step-card">
+            <span class="step-number">2</span>
+            <h3 class="step-title">Paste Link</h3>
+            <p>Paste the copied link into the text field at the top.</p>
+        </div>
+        <div class="step-card">
+            <span class="step-number">3</span>
+            <h3 class="step-title">Download</h3>
+            <p>Click the 'Download' button to start the video download.</p>
+        </div>
+    </section>
+    <section id="how-to-use" class="steps-section">
+    <p class="section-top-title">Here's how it's done:</p>
+    
+    <h2 class="guide-main-heading">How to download TikTok without watermark?</h2>
+    
+    <div class="step-card">
+        <span class="step-number">1</span>
+        <h3 class="step-title">Find a TT</h3>
+        <p>
+            - Open the TikTok app on your mobile device. Scroll to find the video you'd like to save. Play the video to confirm it's the right one.
+        </p>
+    </div>
+
+    <div class="step-card">
+        <span class="step-number">2</span>
+        <h3 class="step-title">Copy the link</h3>
+        <p>
+            - Tap the Share button located on the right side of the screen. Select Copy link from the menu. Check your clipboard to ensure the URL is copied correctly.
+        </p>
+    </div>
+
+    <div class="step-card">
+        <span class="step-number">3</span>
+        <h3 class="step-title">Save TikTok</h3>
+        <p>
+            - Go to the sss TikTok download without watermark service and paste the copied link into the text field at the top. Click 'Save' to start the video download.
+        </p>
+    </div>
+</section>
+
+    <script src="./script.js"></script>
+</body>
+</html>
